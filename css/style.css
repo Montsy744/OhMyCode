@@ -93,6 +93,16 @@ nav a:hover{
   font-size: large;
 }
 
+#texte_apropos .grand {
+  font-size: xx-large;
+  color: #43C0A0;
+}
+
+#texte_apropos .moyen{
+  font-size: x-large;
+  color: #43C0A0;
+}
+
 #portfolio a{
   color: #43C0A0;
   border: 1px solid #43C0A0;
