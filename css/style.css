@@ -128,7 +128,7 @@ nav a:hover{
   padding: 20px;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width: 414px){
   #apropos{
     flex-direction: column;
   }
@@ -140,5 +140,6 @@ nav a:hover{
     padding: 10px;
   }
 }
+
 
 
