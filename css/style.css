@@ -128,7 +128,7 @@ nav a:hover{
   padding: 20px;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 500px){
   #apropos{
     flex-direction: column;
   }
@@ -139,7 +139,55 @@ nav a:hover{
     display: block;
     padding: 10px;
   }
+  .modalTextTitle {
+    font-size: 40px;
+  }
+  .modalBtn a{
+    display: block;
+    margin-bottom: 5%;
+  }
 }
 
+/*pour le js*/
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;/*sans marge a gauche*/
+  top: 0;/*sans marge en haut*/
+  background-color: rgba(243,235,72,0.76);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: auto;
+}
 
+.modalBloc{
+  margin: 10% auto;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-top: 10px solid black;
+}
 
+.modalBtn {
+  margin: 5%;
+}
+
+.modalBtn a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+.modalBtn a:hover{
+  opacity: 0.7
+}
+
+.modalTextTitle{
+  font-size: 60px;
+}
+.modalTextParagraphe{
+  font-size: large;
+}
