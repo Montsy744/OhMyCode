@@ -128,26 +128,6 @@ nav a:hover{
   padding: 20px;
 }
 
-@media screen and (max-width: 500px){
-  #apropos{
-    flex-direction: column;
-  }
-  #service{
-    flex-direction: column;
-  }
-  nav a{
-    display: block;
-    padding: 10px;
-  }
-  .modalTextTitle {
-    font-size: 40px;
-  }
-  .modalBtn a{
-    display: block;
-    margin-bottom: 5%;
-  }
-}
-
 /*pour le js*/
 .modal {
   display: none;

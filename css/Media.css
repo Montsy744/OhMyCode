@@ -1,0 +1,22 @@
+@media screen and (max-width: 500px){
+    #apropos{
+      flex-direction: column;
+    }
+    #service{
+      flex-direction: column;
+    }
+    nav a{
+      display: block;
+      padding: 10px;
+    }
+    .modalTextTitle {
+      font-size: 40px;
+    }
+    .modalBloc{
+      width: 100%;
+    }
+    .modalBtn a{
+      display: block;
+      margin-bottom: 5%;
+    }
+  }
