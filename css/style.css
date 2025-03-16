@@ -154,7 +154,7 @@ nav a:hover{
   position: fixed;
   left: 0;/*sans marge a gauche*/
   top: 0;/*sans marge en haut*/
-  background-color: rgba(243,235,72,0.76);
+  backdrop-filter: blur(25px);
   height: 100%;
   width: 100%;
   z-index: 1;
