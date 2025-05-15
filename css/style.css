@@ -1,64 +1,67 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-header>nav{
-  background-color: rgba(0,0,0,0.5);
+:root {
+  --ble: #2563eb;
+}
+
+header > nav {
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 20px;
   z-index: 1;
   top: 0px;
 }
 
-#bandeau{
-  background-color: rgba(255,255,255,0.7);
+#bandeau {
+  background-color: rgba(255, 255, 255, 0.7);
   z-index: 1;
   margin-top: 10%;
   padding: 50px;
 }
 
-#contenuBandeau{
+#contenuBandeau {
   text-align: center;
-  padding: 2%
+  padding: 2%;
 }
 
-#contenuBandeau img{
+#contenuBandeau img {
   filter: drop-shadow(10px 10px 10px grey);
-
 }
-#contenuBandeau a{
-  color: rgba(178,32,19,0.8);
-  border: 1px solid rgba(178,32,19,0.8);
+#contenuBandeau a {
+  color: rgba(178, 32, 19, 0.8);
+  border: 1px solid rgba(178, 32, 19, 0.8);
   padding: 20px;
   border-radius: 15px;
   text-decoration: none;
   transition-duration: 1s;
 }
-#contenuBandeau a:hover{
+#contenuBandeau a:hover {
   color: white;
-  background-color: rgba(178,32,19,0.8);
+  background-color: rgba(178, 32, 19, 0.8);
 }
-header{
-  padding-bottom: 5% ; 
+header {
+  padding-bottom: 5%;
   background-image: url(../img/fond.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-header #fond{
+header #fond {
   z-index: 0;
   padding: 0;
   margin: 0;
 }
 
-nav a{
+nav a {
   color: white;
   padding: 20px;
 }
 
-nav a:hover{
-  color: #E3C1A2;
+nav a:hover {
+  color: #e3c1a2;
 }
 
 #apropos {
@@ -69,19 +72,18 @@ nav a:hover{
   grid-gap: 4%;*/
 }
 
-#image_apropos img{
+#image_apropos img {
   border-radius: 10px;
   width: 100%;
   height: 90%;
-  
 }
-#image_apropos{
+#image_apropos {
   margin-left: 10px;
   flex: 1;
   /*grid-column: 1;*/
 }
 
-#texte_apropos{
+#texte_apropos {
   text-align: justify;
   /*grid-column: 2;*/
   flex: 2;
@@ -89,34 +91,34 @@ nav a:hover{
   margin-right: 10px;
 }
 
-#texte_apropos p{
+#texte_apropos p {
   font-size: large;
 }
 
 #texte_apropos .grand {
   font-size: xx-large;
-  color: #43C0A0;
+  color: #43c0a0;
 }
 
-#texte_apropos .moyen{
+#texte_apropos .moyen {
   font-size: x-large;
-  color: #43C0A0;
+  color: #43c0a0;
 }
 
-#portfolio a{
-  color: #43C0A0;
-  border: 1px solid #43C0A0;
+#portfolio a {
+  color: #43c0a0;
+  border: 1px solid #43c0a0;
   padding: 20px;
   border-radius: 15px;
   text-decoration: none;
   transition-duration: 1s;
 }
-#portfolio a:hover{
+#portfolio a:hover {
   color: white;
-  background-color: #43C0A0;
+  background-color: #43c0a0;
 }
 #service {
-  background-color: #E5C2A4;
+  background-color: #e5c2a4;
   color: white;
   display: flex;
   padding: 20px;
@@ -132,8 +134,8 @@ nav a:hover{
 .modal {
   display: none;
   position: fixed;
-  left: 0;/*sans marge a gauche*/
-  top: 0;/*sans marge en haut*/
+  left: 0; /*sans marge a gauche*/
+  top: 0; /*sans marge en haut*/
   backdrop-filter: blur(25px);
   height: 100%;
   width: 100%;
@@ -155,12 +157,12 @@ nav a:hover{
 }
 #liste-processus {
   display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
-    margin: 30px
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+  margin: 30px;
 }
-#liste-processus div{
+#liste-processus div {
   padding: 2rem;
   font-size: large;
 }
@@ -180,7 +182,7 @@ nav a:hover{
 .div5,
 .div7,
 .div9 {
-  background-color: #D5CDCA;
+  background-color: #d5cdca;
   border-radius: 50px;
 }
 .div1 {
@@ -224,7 +226,7 @@ nav a:hover{
   grid-row: 5;
 }
 
-.modalBloc{
+.modalBloc {
   margin: 10% auto;
   padding: 20px;
   width: 50%;
@@ -244,13 +246,13 @@ nav a:hover{
   text-decoration: none;
   padding: 10px;
 }
-.modalBtn a:hover{
-  opacity: 0.7
+.modalBtn a:hover {
+  opacity: 0.7;
 }
 
-.modalTextTitle{
+.modalTextTitle {
   font-size: 60px;
 }
-.modalTextParagraphe{
+.modalTextParagraphe {
   font-size: large;
 }
