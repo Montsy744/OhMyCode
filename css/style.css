@@ -97,17 +97,17 @@ nav a:hover {
 
 #texte_apropos .grand {
   font-size: xx-large;
-  color: #43c0a0;
+  color: var(--ble);
 }
 
 #texte_apropos .moyen {
   font-size: x-large;
-  color: #43c0a0;
+  color: var(--ble);
 }
 
 #portfolio a {
-  color: #43c0a0;
-  border: 1px solid #43c0a0;
+  color: var(--ble);
+  border: 1px solid var(--ble);
   padding: 20px;
   border-radius: 15px;
   text-decoration: none;
@@ -115,7 +115,7 @@ nav a:hover {
 }
 #portfolio a:hover {
   color: white;
-  background-color: #43c0a0;
+  background-color: var(--ble);
 }
 #service {
   background-color: #e5c2a4;
@@ -175,6 +175,14 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.div2 i,
+.div4 i,
+.div6 i,
+.div8 i,
+.div10 i {
+  color: var(--ble);
 }
 
 .div1,
