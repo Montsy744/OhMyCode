@@ -16,7 +16,7 @@ header > nav {
 }
 
 #bandeau {
-  background-color: rgba(20, 20, 19,0.2);
+  background-color: rgba(20, 20, 19,0.5);
   z-index: 1;
   margin-top: 10%;
   padding: 50px;
@@ -30,6 +30,7 @@ header > nav {
 #contenuBandeau img {
   filter: drop-shadow(0px 20px 10px grey);
 }
+
 #contenuBandeau a {
   color: black;
   border: 1px solid rgba(27, 124, 124, 0.8);
@@ -44,9 +45,8 @@ header > nav {
 }
 header {
   padding-bottom: 5%;
-  background-image: url(../img/fond.png);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background: url(./../img/fond.png) center center / cover
+    no-repeat;
 }
 
 header #fond {
